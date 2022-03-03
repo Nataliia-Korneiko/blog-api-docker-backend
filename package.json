@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Nataliia-Korneiko/blog-api-docker-backend#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.2",
     "mongoose": "^6.2.1"
   },
