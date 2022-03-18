@@ -1,0 +1,33 @@
+{
+  "name": "blog-api-docker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon -L index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nataliia-Korneiko/blog-api-docker-backend.git"
+  },
+  "keywords": [],
+  "author": "Nataliia Korneiko <korneyko_ns@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nataliia-Korneiko/blog-api-docker-backend/issues"
+  },
+  "homepage": "https://github.com/Nataliia-Korneiko/blog-api-docker-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^5.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.2.1",
+    "redis": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
