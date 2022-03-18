@@ -9,6 +9,7 @@ services:
   
   node-app:
     build: .
+    image: nkorneiko/node-app
     environment:
       - PORT=3000
     depends_on:
